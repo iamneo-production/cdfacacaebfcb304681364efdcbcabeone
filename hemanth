@@ -94,7 +94,27 @@ if(
             }
             <button id + "reset >Reset</button>
             .container {
-                disp
+                display: flex;
+                flex-direction: column;
+
+            }
+            #reset{
+                margin : 48px 40 %
+                padding: 20px;
+            }
+            document.getElementById("reset").addEventListener(
+                "click",
+                function(){
+
+                }
+            );
+            for(let i = 1; i<=9; i+=){
+               document.getElemtnById(i.toString()).innerHTML = "";
+               document.getElemtnById(i.toString()).classList.remove("x");
+               document.getElemtnById(i.toString()).classList.remove("o");
+               document.getElemtnById(i.toString()).classList.remove("win");
+               gameEnded = false;
+
             }
         )
     }
