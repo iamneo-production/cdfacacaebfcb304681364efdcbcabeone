@@ -51,5 +51,26 @@ td{
             );
         }
 if(this.innerHTML === "" && !gameEnded){
-    this.
+    this.innerHTML = playerSymbol;
+    this.classList.add(playerSymbol.toLowerCase());
+    .x{
+        color : blue;
+        font-size : 80px;
+
+    }
+    .o{
+        color :red;
+        font-soze: 80px;
+        }
+    if(playerSymbol === "x")
+    playerSymbol = "O"
+    else
+    playerSymbol = "x"
+    function checkWin(){
+
+    }
+    for(let i = 0; i< winPos.length;)
 }
+if(
+    document.getElementById(sinpos[i][0]).innteHTML ===playerSymbol&&
+)
