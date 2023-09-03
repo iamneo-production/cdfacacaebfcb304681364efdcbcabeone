@@ -26,6 +26,22 @@ table {
     border-collaps: collapse : margin: 0 auto;
     margin: o auto;
 }
+td{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1 px solid black;
+    <link rel = "stylesheet" type = "text/css" href = "style.css">
+}
 </tr>
 </body>
 </html>
+<body>
+    <scsript src = "script.js"></script>
+        </body>
+        let playerSymbol = "x";
+        leg gameEnded = false
+        for(let i = 1; i<=9; i++) {
+            document.getElementById(i.toString())
+        }
