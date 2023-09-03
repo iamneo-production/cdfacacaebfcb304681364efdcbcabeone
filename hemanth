@@ -73,4 +73,30 @@ if(this.innerHTML === "" && !gameEnded){
 }
 if(
     document.getElementById(sinpos[i][0]).innteHTML ===playerSymbol&&
+    document.getElementById(sinpos[i][1]).innteHTML ===playerSymbol&&
+    document.getElementById(sinpos[i][2]).innteHTML ===playerSymbol&&
 )
+.win{
+    background-color : yellow;
+    for(let i = 1; i<=9; i++){
+        document.getElementById(i.toString().addEventListener(
+            "click",
+            function(){
+                if(this.innerHTML === "" && !gameEnded){
+                    this.innerHTML = playerSymbol;
+                    this.classList.add(playerSymbol.toLowerCase());
+                    checkwin();
+                    if(playersymbol === "x")
+                    playerSymbol = "O"
+                    else
+                    playerSymbol = "x"
+                }
+            }
+            <button id + "reset >Reset</button>
+            .container {
+                disp
+            }
+        )
+    }
+}
+}
